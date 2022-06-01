@@ -1,0 +1,26 @@
+:host {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+} 
+
+.center {
+  display: flex;
+  justify-content: center;
+} 
+
+.tile {
+  padding-left: 2px;
+}
+
+.tile[hidden] {
+  display: none;
+}

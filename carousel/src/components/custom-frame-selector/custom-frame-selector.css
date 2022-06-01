@@ -1,0 +1,27 @@
+:host {
+  display: flex;
+  justify-content: center;
+  margin-top: -40px;
+}
+
+.item {
+  width:20px;
+  height:20px;
+  border: 2px solid white;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 140, 0.15);
+}
+
+.item:not(:first-child) {
+  margin-left: 40px;
+}
+
+.item:hover {
+  color: white;
+  transform: scale(1.2);
+  background-color: rgba(0, 0, 140, 0.3);
+}
+
+.item[is-selected]{
+  background-color: rgba(0, 0, 140, 0.6)
+}
